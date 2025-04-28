@@ -18,7 +18,7 @@ RAG(Retrieval-Augmented Generation) 적용: 검색 결과를 기반으로 요약
 
 ### 설치 및 실행 방법
 1. 레포지토리 클론
-git clone https://github.com/본인계정/agentic-ai-explorer.git  
+git clone https://github.com/CallmeAshley/agentic-ai-explorer.git  
 cd agentic-ai-explorer
 
 2. pip install -r requirements.txt
@@ -29,7 +29,7 @@ cd agentic-ai-explorer
 
 4. FastAPI 서버 및 Streamlit 웹앱 실행  
 uvicorn app.main:app --reload  
-streamlit run web/app.py
+streamlit run web/app.py  
 
 ### 사용 기술 (Tech Stack)
 FastAPI: 검색 및 요청 처리를 위한 백엔드  
