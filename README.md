@@ -11,24 +11,23 @@ LangGraph 기반 에이전트 플로우: 검색 → 요약 → 추가 질문 생
 
 ### 설치 및 실행 방법
 1. 레포지토리 클론
-git clone https://github.com/본인계정/agentic-ai-explorer.git
-
+git clone https://github.com/본인계정/agentic-ai-explorer.git  
 cd agentic-ai-explorer
 
 2. pip install -r requirements.txt
 
-3. .env 파일 생성 후 API 키 설정
-   SERPAPI_API_KEY=your_serpapi_key
+3. .env 파일 생성 후 API 키 설정  
+   SERPAPI_API_KEY=your_serpapi_key  
    OPENAI_API_KEY=your_openai_api_key
 
-4. FastAPI 서버 및 Streamlit 웹앱 실행
-uvicorn app.main:app --reload
+4. FastAPI 서버 및 Streamlit 웹앱 실행  
+uvicorn app.main:app --reload  
 streamlit run web/app.py
 
 ### 사용 기술 (Tech Stack)
-FastAPI: 검색 및 요청 처리를 위한 백엔드
-Streamlit: 결과를 시각적으로 표현하는 프론트엔드
-SerpAPI: 구글 검색 결과 수집을 위한 API
-LangChain: 검색 결과 요약을 위한 툴
-LangGraph: 에이전트 기반 워크플로우 설계를 위한 프레임워크 (검색 → 요약 → 질문 생성)
-Python 3.10: 프로그래밍 언어
+FastAPI: 검색 및 요청 처리를 위한 백엔드  
+Streamlit: 결과를 시각적으로 표현하는 프론트엔드  
+SerpAPI: 구글 검색 결과 수집을 위한 API  
+LangChain: 검색 결과 요약을 위한 툴  
+LangGraph: 에이전트 기반 워크플로우 설계를 위한 프레임워크 (검색 → 요약 → 질문 생성)  
+Python 3.10: 프로그래밍 언어  
