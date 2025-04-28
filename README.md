@@ -12,7 +12,6 @@ Streamlit 프론트엔드로 카드 형태의 검색 결과 시각화
 ## 설치 및 실행 방법
 1. 레포지토리 클론
 git clone https://github.com/본인계정/agentic-ai-explorer.git
-
 cd agentic-ai-explorer
 
 3. pip install -r requirements.txt
