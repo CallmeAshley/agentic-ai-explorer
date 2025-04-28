@@ -12,14 +12,15 @@ Streamlit 프론트엔드로 카드 형태의 검색 결과 시각화
 ## 설치 및 실행 방법
 1. 레포지토리 클론
 git clone https://github.com/본인계정/agentic-ai-explorer.git
+
 cd agentic-ai-explorer
 
-2. pip install -r requirements.txt
+3. pip install -r requirements.txt
 
-3. .env 파일 생성 후 SerpAPI API Key 설정
+4. .env 파일 생성 후 SerpAPI API Key 설정
 SERPAPI_API_KEY=본인의_SerpAPI_키
 
-4. FastAPI 서버 및 Streamlit 웹앱 실행
+5. FastAPI 서버 및 Streamlit 웹앱 실행
 uvicorn app.main:app --reload
 streamlit run web/app.py
 
