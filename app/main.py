@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from app.utils.google_search import google_search
 
-app = FastAPI()  # 이게 반드시 있어야 해!
+app = FastAPI()  
 
 class SearchRequest(BaseModel):
     topic: str
