@@ -13,3 +13,4 @@ def summarize_node(inputs):
     summary = summarize_texts(snippets)
     
     return {"summary": summary}
+
