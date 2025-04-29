@@ -22,9 +22,9 @@ def question_node(inputs):
     )
     
     prompt = f"""
-요약된 내용을 바탕으로 사용자가 더 깊이 탐구할 수 있도록 유도하는 추가 질문 3개를 만들어주세요.
-요약: {summary}
-"""
+                요약된 내용을 바탕으로 사용자가 더 깊이 탐구할 수 있도록 유도하는 추가 질문 3개를 만들어주세요.
+                요약: {summary}
+            """
     response = llm.predict(prompt)
     
     return {"questions": response}
