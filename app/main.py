@@ -15,7 +15,6 @@ async def search_topic(request: SearchRequest):
         results = google_search(request.topic)
         # 검색 결과 중 snippet만 뽑아서 리스트 생성
         snippets = [r["snippet"] for r in results]
-        # LangChain으로 요약
         summary = summarize_texts(snippets)
         return {
             "results": results,
