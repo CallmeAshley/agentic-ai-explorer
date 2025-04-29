@@ -22,6 +22,7 @@ def summarize_texts(texts: list) -> str:
     
     # Summarization Chain 로딩
     chain = load_summarize_chain(llm, chain_type="stuff")
+
     
     # 요약 실행
     summary = chain.run(documents)
