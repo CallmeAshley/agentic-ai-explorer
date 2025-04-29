@@ -43,3 +43,4 @@ if st.button('탐험 시작'):
             st.error(f"요청 중 오류 발생: {e}")
     else:
         st.warning('주제를 입력해 주세요!')
+
